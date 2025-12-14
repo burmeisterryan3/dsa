@@ -18,7 +18,7 @@
   "github.copilot.editor.enableAutoCompletions": false,
   
   // Disable hover information
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   
   // Keep syntax highlighting and error checking
   "python.analysis.typeCheckingMode": "basic",
