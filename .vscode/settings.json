@@ -1,0 +1,26 @@
+{
+  // Disable IntelliSense and code completion
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  
+  // Disable Copilot inline suggestions
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.editor.enableAutoCompletions": false,
+  
+  // Disable hover information
+  "editor.hover.enabled": "off",
+  
+  // Keep syntax highlighting and error checking
+  "python.analysis.typeCheckingMode": "basic",
+  "python.linting.enabled": true
+}
