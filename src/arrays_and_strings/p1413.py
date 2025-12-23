@@ -1,3 +1,5 @@
+"""https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/description/"""
+
 class Solution():
     def min_start_value(self, nums: list[int]) -> int:
         prefix = [nums[0]]
