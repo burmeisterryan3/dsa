@@ -14,6 +14,14 @@ def create_llist(list):
         curr = curr.next
     return head
 
+def llist_to_list(head):
+    """Convert a linked list to a Python list."""
+    result = []
+    while head:
+        result.append(head.val)
+        head = head.next
+    return result
+
 def test_p876(solver):
-    assert solver.middle_node(create_llist([1,2,3,4,5])).val == 3
-    assert solver.middle_node(create_llist([1,2,3,4,5,6])).val == 4
+    assert llist_to_list(solver.middle_node(create_llist([1,2,3,4,5]))) == [3,4,5]
+    assert llist_to_list(solver.middle_node(create_llist([1,2,3,4,5,6]))) == [4,5,6]
